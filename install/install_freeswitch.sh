@@ -167,7 +167,7 @@ sed -i modules.conf -e s:'endpoints/mod_verto:#endpoints/mod_verto:'
 sed -i modules.conf -e s:'applications/mod_say_es:#applications/mod_say_es:'
 sed -i modules.conf -e s:'applications/mod_say_fr:#applications/mod_say_fr:'
 sed -i modules.conf -e s:'applications/mod_nibblebill:#applications/mod_nibblebill:'
-sed -i modules.conf -e s:'applications/mod_av:#applications/mod_av:'
+sed -i modules.conf -e s:'applications/mod_av:applications/mod_av:'
 sed -i modules.conf -e s:'xml_int/mod_xml_rpc:#xml_int/mod_xml_rpc:'
 
 print_success "Modules configured successfully."
